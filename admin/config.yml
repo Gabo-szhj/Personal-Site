@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: Gabo-szhj/Personal-Site
+  branch: main
+  # Replace with your deployed Cloudflare Worker URL (see cms-oauth-worker/README.md)
+  base_url: https://REPLACE-ME.workers.dev
+
+media_folder: "images/projects"
+public_folder: "/images/projects"
+
+collections:
+  - name: "projects"
+    label: "Portfolio Projects"
+    files:
+      - name: "projects"
+        label: "Projects"
+        file: "data/projects.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - {label: "Card title", name: "title", widget: "string", hint: "Shown on the portfolio grid tile"}
+              - {label: "Card subtitle", name: "subtitle", widget: "string", hint: "Small line under the title on the tile"}
+              - label: "Filter tags"
+                name: "categories"
+                widget: "select"
+                multiple: true
+                hint: "Controls which filter tab(s) this project shows up under"
+                options: ["spotlight", "research", "articles", "videos", "decks"]
+              - {label: "Cover image", name: "coverImage", widget: "image", media_library: {config: {multiple: false}}}
+              - {label: "Detail page title", name: "detailTitle", widget: "string", required: false, hint: "Heading shown in the popup. Leave blank to reuse the card title."}
+              - label: "Gallery images"
+                name: "images"
+                widget: "list"
+                hint: "Images shown in the popup carousel. Leave empty to just reuse the cover image."
+                required: false
+                field: {label: "Image", name: "image", widget: "image"}
+              - {label: "Description", name: "description", widget: "text", hint: "Shown as 'Project Info' in the popup"}
+              - {label: "Category label", name: "categoryLabel", widget: "string", hint: "Free text shown next to 'Category:' in the popup"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "Link URL", name: "url", widget: "string"}
+              - {label: "Link display text", name: "urlLabel", widget: "string"}

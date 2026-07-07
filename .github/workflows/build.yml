@@ -1,0 +1,40 @@
+name: Build portfolio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/projects.json'
+      - 'scripts/build-portfolio.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate portfolio grid + detail pages
+        run: node scripts/build-portfolio.js
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html ajax/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Rebuild portfolio from projects.json [skip ci]"
+            git push
+          fi
