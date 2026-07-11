@@ -1,264 +1,397 @@
 {
   "projects": [
     {
-      "title": "VMware",
-      "subtitle": "Cloud Computing",
-      "categories": ["decks"],
       "coverImage": "images/projects/vmcover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "VMware Pitch Deck",
-      "images": ["images/projects/vm1.jpg", "images/projects/vm2.jpg"],
-      "description": "The is a deck to pitch the cloud computing virtualization software VMware. This deck explained the specifics of cloud computing. Our team pitched the idea to imaginary investors in the pass to learn entrepreneur skills.",
-      "categoryLabel": "Cloud Computing",
       "date": "Oct. 2020",
       "url": "https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2Fauth0%7C5d871c06eeca0c0c48281d53%2FPIE%20S1%20Deck.pdf?alt=media&token=b01ebe13-da4e-4b98-a580-f6b19a184cb1",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "Cloud Computing",
+      "subtitle": "Cloud Computing",
+      "title": "VMware",
+      "images": [
+        "images/projects/vm1.jpg",
+        "images/projects/vm2.jpg"
+      ],
+      "categories": [
+        "decks"
+      ],
+      "description": "The is a deck to pitch the cloud computing virtualization software VMware. This deck explained the specifics of cloud computing. Our team pitched the idea to imaginary investors in the pass to learn entrepreneur skills."
     },
     {
-      "title": "Terrawalls Pitch Deck",
-      "subtitle": "Sustainability",
-      "categories": ["decks", "spotlight"],
       "coverImage": "images/projects/wallcover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Terrawalls - Revolutionizing Construction Materials",
-      "images": ["images/projects/wall1.jpg", "images/projects/wall2.jpg", "images/projects/wall3.jpg"],
-      "description": "This is a self-developed idea deck to revolutionize construction materials for residential houses. This wall utilized terra bricks to decrease construction cost, improve landscaping quality, and bring organic veggies striaght to your home.",
-      "categoryLabel": "Sustainability, Housing, Material",
       "date": "Nov, 2020",
       "url": "https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2Fauth0%7C5d871c06eeca0c0c48281d53%2FLuke%2C%20Aashi%2C%20Gabo%2C%20Sophia.pdf?alt=media&token=d64e94de-9822-4ffe-8b53-4cff5baeb4e2",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "Sustainability, Housing, Material",
+      "subtitle": "Sustainability",
+      "title": "Terrawalls Pitch Deck",
+      "images": [
+        "images/projects/wall1.jpg",
+        "images/projects/wall2.jpg",
+        "images/projects/wall3.jpg"
+      ],
+      "categories": [
+        "decks",
+        "spotlight"
+      ],
+      "description": "This is a self-developed idea deck to revolutionize construction materials for residential houses. This wall utilized terra bricks to decrease construction cost, improve landscaping quality, and bring organic veggies striaght to your home."
     },
     {
-      "title": "Surgical VR System Deck",
-      "subtitle": "Virtual Reality",
-      "categories": ["decks", "spotlight"],
       "coverImage": "images/projects/surgerycover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Surgical VR System",
-      "images": ["images/projects/surgery1.jpg", "images/projects/surgery2.jpg", "images/projects/surgery3.jpg"],
-      "description": "This is a presentation deck to pitch a developing patent that can improve the safety and efficiency of surgical practices. This VR system can allow the surgeon to view the patient from different angles, cast a pre-clinical screening on the patient and provide real-time help from other experts.",
-      "categoryLabel": "Virtual Reality, Patent",
       "date": "Dec. 21st, 2020",
       "url": "https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2Fauth0%7C5d871c06eeca0c0c48281d53%2FPatent%20Cut.pdf?alt=media&token=11263f35-26b9-4000-85d9-99f1a0ea6c12",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "Virtual Reality, Patent",
+      "subtitle": "Virtual Reality",
+      "title": "Surgical VR System Deck",
+      "images": [
+        "images/projects/surgery1.jpg",
+        "images/projects/surgery2.jpg",
+        "images/projects/surgery3.jpg"
+      ],
+      "categories": [
+        "decks",
+        "spotlight"
+      ],
+      "description": "This is a presentation deck to pitch a developing patent that can improve the safety and efficiency of surgical practices. This VR system can allow the surgeon to view the patient from different angles, cast a pre-clinical screening on the patient and provide real-time help from other experts."
     },
     {
-      "title": "Stress Management App",
-      "subtitle": "Mental Illness Awareness",
-      "categories": ["decks"],
       "coverImage": "images/projects/borncover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Stress Management App - Born This Way Foundation",
-      "images": ["images/projects/born1.jpg", "images/projects/born2.jpg", "images/projects/born3.jpg"],
-      "description": "This is a recommendation deck for the Born This Way Foundation to further their online presentence and spread awareness of mental illnesses and treating options. This recommendation is to develop an app that will allow teens to track their mood and plan their tasks in school and life to effectively decrease their stress level to the minimum.",
-      "categoryLabel": "Mental Illness, App Development, Born This Way Foundation",
       "date": "Nov, 2019",
       "url": "https://drive.google.com/file/d/1obQWj4hIA_2imULx91neNvYefkqtVA4c/view?usp=sharing",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "Mental Illness, App Development, Born This Way Foundation",
+      "subtitle": "Mental Illness Awareness",
+      "title": "Stress Management App",
+      "images": [
+        "images/projects/born1.jpg",
+        "images/projects/born2.jpg",
+        "images/projects/born3.jpg"
+      ],
+      "categories": [
+        "decks"
+      ],
+      "description": "This is a recommendation deck for the Born This Way Foundation to further their online presentence and spread awareness of mental illnesses and treating options. This recommendation is to develop an app that will allow teens to track their mood and plan their tasks in school and life to effectively decrease their stress level to the minimum."
     },
     {
-      "title": "Water Filtration System",
-      "subtitle": "Water Scarcity & Education",
-      "categories": ["decks"],
       "coverImage": "images/projects/kidogocover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Water Filtration System - Kidogo",
-      "images": ["images/projects/kidogo1.jpg", "images/projects/kidogo2.jpg", "images/projects/kidogo3.jpg"],
-      "description": "This is a recommendation deck for the Kidogo Foundation to expand the size of the early child education centers in the Nairobi slum in Kenya. The recommendation involves the distribution of a water filtration system which can improve the quality of life and act as a fundraiser for the Kidogo Foundation.",
-      "categoryLabel": "Education, Water Scarcity, Quality of Life",
       "date": "Mar. 22nd, 2020",
       "url": "https://firebasestorage.googleapis.com/v0/b/tks-life-prod.appspot.com/o/items%2Fauth0%7C5d871c06eeca0c0c48281d53%2FTKS%20x%20Kidogo%20Water%20Filtration.pptx.pdf?alt=media&token=f63787fa-da75-4200-8ed5-e6776e5a95c6",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "Education, Water Scarcity, Quality of Life",
+      "subtitle": "Water Scarcity & Education",
+      "title": "Water Filtration System",
+      "images": [
+        "images/projects/kidogo1.jpg",
+        "images/projects/kidogo2.jpg",
+        "images/projects/kidogo3.jpg"
+      ],
+      "categories": [
+        "decks"
+      ],
+      "description": "This is a recommendation deck for the Kidogo Foundation to expand the size of the early child education centers in the Nairobi slum in Kenya. The recommendation involves the distribution of a water filtration system which can improve the quality of life and act as a fundraiser for the Kidogo Foundation."
     },
     {
-      "title": "Rainforest Biodiversity",
-      "subtitle": "X-Prize Challenge",
-      "categories": ["decks", "spotlight"],
       "coverImage": "images/projects/biodiversitycover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Rainforest Biodiversity",
-      "images": ["images/projects/biodiversity1.jpg", "images/projects/biodiversity2.jpg", "images/projects/biodiversity3.jpg"],
-      "description": "This is a self-made presentation deck that overviews the biodiversity problem in the rainforests. This is a part of the X-Prize Rainforest Challenge understanding project.",
-      "categoryLabel": "X-Prize Challenge, Biodiversity, Deforestation",
       "date": "Jul. 2020",
       "url": "https://drive.google.com/file/d/1SA3rvyS-WqOMEP6wv2D-N4WZiJiDGZ3y/view?usp=sharing",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "X-Prize Challenge, Biodiversity, Deforestation",
+      "subtitle": "X-Prize Challenge",
+      "title": "Rainforest Biodiversity",
+      "images": [
+        "images/projects/biodiversity1.jpg",
+        "images/projects/biodiversity2.jpg",
+        "images/projects/biodiversity3.jpg"
+      ],
+      "categories": [
+        "decks",
+        "spotlight"
+      ],
+      "description": "This is a self-made presentation deck that overviews the biodiversity problem in the rainforests. This is a part of the X-Prize Rainforest Challenge understanding project."
     },
     {
-      "title": "Biodiversity Monitoring Solution",
-      "subtitle": "X-Prize Challenge",
-      "categories": ["decks"],
       "coverImage": "images/projects/monitorcover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Biodiversity Monitoring Solution",
-      "images": ["images/projects/monitor1.jpg", "images/projects/monitor2.jpg", "images/projects/monitor3.jpg"],
-      "description": "This is the final pitch deck for the X-Prize Rainforest challenge. The idea pitched is to use a biomimicry robot with convolutional neural network to monitor the biodiversity of Magnoliophyte (plants).",
-      "categoryLabel": "X-Prize Challenge, Biodiversity Monitoring, Magnoliophytes",
       "date": "Jul. 2020",
       "url": "https://drive.google.com/file/d/1eU1wH-0BsXeWRft32fYmg7e3QNa_LypK/view?usp=sharing",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "X-Prize Challenge, Biodiversity Monitoring, Magnoliophytes",
+      "subtitle": "X-Prize Challenge",
+      "title": "Biodiversity Monitoring Solution",
+      "images": [
+        "images/projects/monitor1.jpg",
+        "images/projects/monitor2.jpg",
+        "images/projects/monitor3.jpg"
+      ],
+      "categories": [
+        "decks"
+      ],
+      "description": "This is the final pitch deck for the X-Prize Rainforest challenge. The idea pitched is to use a biomimicry robot with convolutional neural network to monitor the biodiversity of Magnoliophyte (plants)."
     },
     {
-      "title": "Faunas One-Pager",
-      "subtitle": "Entrepreneurship & Sustainability",
-      "categories": ["decks", "spotlight"],
       "coverImage": "images/projects/faunascover.jpg",
+      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio",
       "detailTitle": "Faunas One-Pager",
-      "images": ["images/projects/faunas1.jpg"],
-      "description": "This is a one-pager introducing the company I co-founded, Faunas.",
-      "categoryLabel": "Entrepreneurship, Sustainability, Recycle, Waste Reduce",
       "date": "Apr. 2020",
       "url": "https://drive.google.com/file/d/1DPiOfOMdzhznD-GuvfOSC--SM473Lju1/view?usp=sharing",
-      "urlLabel": "https://tks.life/profile/gabo.zhang#portfolio"
+      "categoryLabel": "Entrepreneurship, Sustainability, Recycle, Waste Reduce",
+      "subtitle": "Entrepreneurship & Sustainability",
+      "title": "Faunas One-Pager",
+      "images": [
+        "images/projects/faunas1.jpg"
+      ],
+      "categories": [
+        "decks",
+        "spotlight"
+      ],
+      "description": "This is a one-pager introducing the company I co-founded, Faunas."
     },
     {
-      "title": "Programmable Wind Technology",
-      "subtitle": "Wind Technology & Programmable Material",
-      "categories": ["articles"],
       "coverImage": "images/projects/wind1.jpg",
+      "urlLabel": "https://medium.com/@gabo.zhang",
       "detailTitle": "Programmable Wind Technology",
-      "images": ["images/projects/wind1.jpg"],
-      "description": "Did you know that wind turbines require electricity inputs to run properly? This article is proposing one of my idea to use programmable SMP materials on wind turbines to make a fully green wind technology.",
-      "categoryLabel": "Renewable Energy, Wind Technology, Programmable Materials",
       "date": "Jun. 2nd, 2020",
       "url": "https://medium.com/@gabo.zhang/programmable-wind-technology-9a471ed82a3f",
-      "urlLabel": "https://medium.com/@gabo.zhang"
+      "categoryLabel": "Renewable Energy, Wind Technology, Programmable Materials",
+      "subtitle": "Wind Technology & Programmable Material",
+      "title": "Programmable Wind Technology",
+      "images": [
+        "images/projects/wind1.jpg"
+      ],
+      "categories": [
+        "articles"
+      ],
+      "description": "Did you know that wind turbines require electricity inputs to run properly? This article is proposing one of my idea to use programmable SMP materials on wind turbines to make a fully green wind technology."
     },
     {
-      "title": "What is a Fuel Cell?",
-      "subtitle": "Renewable Energy",
-      "categories": ["articles", "spotlight"],
       "coverImage": "images/projects/fuel1.jpg",
+      "urlLabel": "https://medium.com/@gabo.zhang",
       "detailTitle": "What is a Fuel Cell?",
-      "images": ["images/projects/fuel1.jpg"],
-      "description": "What is a fuel cell? Is it possible to use gases to produce electricity? This article is going to give you the basics of fuel cell technology along with the in dept knowledge on some of the applications and technology details.",
-      "categoryLabel": "Renewable Energy, Fuel Cell",
       "date": "Nov, 2020",
       "url": "https://medium.com/@gabo.zhang/what-is-a-fuel-cell-7100dafdf0ff",
-      "urlLabel": "https://medium.com/@gabo.zhang"
+      "categoryLabel": "Renewable Energy, Fuel Cell",
+      "subtitle": "Renewable Energy",
+      "title": "What is a Fuel Cell?",
+      "images": [
+        "images/projects/fuel1.jpg"
+      ],
+      "categories": [
+        "articles",
+        "spotlight"
+      ],
+      "description": "What is a fuel cell? Is it possible to use gases to produce electricity? This article is going to give you the basics of fuel cell technology along with the in dept knowledge on some of the applications and technology details."
     },
     {
-      "title": "Peter Thiel: How to build a Monopoly from 0 to 1",
-      "subtitle": "Entrepreneurship",
-      "categories": ["articles", "spotlight"],
       "coverImage": "images/projects/peter1.jpg",
+      "urlLabel": "https://medium.com/@gabo.zhang",
       "detailTitle": "Peter Thiel: How to build a Monopoly from 0 to 1",
-      "images": ["images/projects/peter1.jpg"],
-      "description": "“Every moment in business happens only once. The next Bill Gates will not start an operating system. The next Larry Page won’t make a search engine. And the next Mark Zuckerberg won’t create a social network. If you are copying these guys, you aren’t learning from them.” In this article, you will learn more about how to get a business from 0 to 1 to a monopoly.",
-      "categoryLabel": "Business, Entrepreneurship, People",
       "date": "Apr. 10th, 2020",
       "url": "https://medium.com/@gabo.zhang/peter-thiel-how-to-build-a-monopoly-from-0-to-1-d4589ced1a2d",
-      "urlLabel": "https://medium.com/@gabo.zhang"
+      "categoryLabel": "Business, Entrepreneurship, People",
+      "subtitle": "Entrepreneurship",
+      "title": "Peter Thiel: How to build a Monopoly from 0 to 1",
+      "images": [
+        "images/projects/peter1.jpg"
+      ],
+      "categories": [
+        "articles",
+        "spotlight"
+      ],
+      "description": "“Every moment in business happens only once. The next Bill Gates will not start an operating system. The next Larry Page won’t make a search engine. And the next Mark Zuckerberg won’t create a social network. If you are copying these guys, you aren’t learning from them.” In this article, you will learn more about how to get a business from 0 to 1 to a monopoly."
     },
     {
-      "title": "Decarbonization Experiment",
-      "subtitle": "Solar Energy",
-      "categories": ["articles"],
       "coverImage": "images/projects/decarb1.jpg",
+      "urlLabel": "https://medium.com/@gabo.zhang",
       "detailTitle": "City-Scale Decarbonization Experiment & Duck Curve 🦆",
-      "images": ["images/projects/decarb1.jpg"],
-      "description": "Have you ever heard of the term “Duck Curve”? Well, if you have some knowledge in the solar industry, you should be pretty familiar with this word. In this article, I will tell you what is a Duck Curve and how it relates to a CRAZY experiment conducted by Stanford University!",
-      "categoryLabel": "Decarbonization, Solar Energy, Stanford University",
       "date": "Mar. 30th, 2020",
       "url": "https://medium.com/@gabo.zhang/city-scale-decarbonization-experiment-duck-curve-14f90ebbf03b",
-      "urlLabel": "https://medium.com/@gabo.zhang"
+      "categoryLabel": "Decarbonization, Solar Energy, Stanford University",
+      "subtitle": "Solar Energy",
+      "title": "Decarbonization Experiment",
+      "images": [
+        "images/projects/decarb1.jpg"
+      ],
+      "categories": [
+        "articles"
+      ],
+      "description": "Have you ever heard of the term “Duck Curve”? Well, if you have some knowledge in the solar industry, you should be pretty familiar with this word. In this article, I will tell you what is a Duck Curve and how it relates to a CRAZY experiment conducted by Stanford University!"
     },
     {
-      "title": "Nuclear Fusion: Bottling A Star 🌟",
-      "subtitle": "Renewable Energy",
-      "categories": ["articles", "spotlight"],
       "coverImage": "images/projects/bottle1.jpg",
+      "urlLabel": "https://medium.com/@gabo.zhang",
       "detailTitle": "Nuclear Fusion: Bottling A Star 🌟",
-      "images": ["images/projects/bottle1.jpg"],
-      "description": "“Why can’t we catch and bottle a star?” The answer is we actually can. Just to clarify, we are not catching a star from space and seal it in a bottle. What we as a human race is trying to do is to build something that has the same mechanism of producing energy as the stars and put it in a device to maintain and control it. That sounds CRAZY! But, how does it work?",
-      "categoryLabel": "Renewable Energy, Nuclear Fusion",
       "date": "Jan. 8th, 2020",
       "url": "https://medium.com/@gabo.zhang/nuclear-fusion-bottling-a-star-a8c636440db8",
-      "urlLabel": "https://medium.com/@gabo.zhang"
+      "categoryLabel": "Renewable Energy, Nuclear Fusion",
+      "subtitle": "Renewable Energy",
+      "title": "Nuclear Fusion: Bottling A Star 🌟",
+      "images": [
+        "images/projects/bottle1.jpg"
+      ],
+      "categories": [
+        "articles",
+        "spotlight"
+      ],
+      "description": "“Why can’t we catch and bottle a star?” The answer is we actually can. Just to clarify, we are not catching a star from space and seal it in a bottle. What we as a human race is trying to do is to build something that has the same mechanism of producing energy as the stars and put it in a device to maintain and control it. That sounds CRAZY! But, how does it work?"
     },
     {
-      "title": "Alternative Energy: What’s next?",
-      "subtitle": "Renewable Energy",
-      "categories": ["articles"],
       "coverImage": "images/projects/energy1.jpg",
+      "urlLabel": "https://medium.com/@gabo.zhang",
       "detailTitle": "Alternative Energy: What’s next?",
-      "images": ["images/projects/energy1.jpg"],
-      "description": "Do you know that the Earth you have known since when you were born is heating itself to extinction? Do you know that arctic sea ice is now declining at a rate of 12.85 percent per decade? What can we do about it as human? Well, we can use alternative energy.",
-      "categoryLabel": "Renewable Energy, Nuclear Energy, Tidal Energy, Hydrogen Gas",
       "date": "Nov. 9th 2019",
       "url": "https://medium.com/@gabo.zhang/alternative-energy-whats-next-b3e352177846",
-      "urlLabel": "https://medium.com/@gabo.zhang"
+      "categoryLabel": "Renewable Energy, Nuclear Energy, Tidal Energy, Hydrogen Gas",
+      "subtitle": "Renewable Energy",
+      "title": "Alternative Energy: What’s next?",
+      "images": [
+        "images/projects/energy1.jpg"
+      ],
+      "categories": [
+        "articles"
+      ],
+      "description": "Do you know that the Earth you have known since when you were born is heating itself to extinction? Do you know that arctic sea ice is now declining at a rate of 12.85 percent per decade? What can we do about it as human? Well, we can use alternative energy."
     },
     {
-      "title": "Programmable Wind Idea Pitch",
-      "subtitle": "Idea",
-      "categories": ["videos", "spotlight"],
       "coverImage": "images/projects/windvidcover.jpg",
+      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw",
       "detailTitle": "Programmable Wind Idea Pitch",
-      "images": ["images/projects/windvidcover.jpg", "images/projects/windvid1.jpg", "images/projects/windvid2.jpg"],
-      "description": "This video explains my idea of integrating programmable materials on wind turbines to achieve a zero-input green energy source. You will learn about renewable energies and shape memory polymers together with how this idea could be implemented in real life.",
-      "categoryLabel": "Renewable Energy, Wind Technology, Programmable Materials",
       "date": "Jun. 2nd, 2020",
       "url": "https://www.youtube.com/watch?v=FTFwe-hC85w&t=40s",
-      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw"
+      "categoryLabel": "Renewable Energy, Wind Technology, Programmable Materials",
+      "subtitle": "Idea",
+      "title": "Programmable Wind Idea Pitch",
+      "images": [
+        "images/projects/windvidcover.jpg",
+        "images/projects/windvid1.jpg",
+        "images/projects/windvid2.jpg"
+      ],
+      "categories": [
+        "videos",
+        "spotlight"
+      ],
+      "description": "This video explains my idea of integrating programmable materials on wind turbines to achieve a zero-input green energy source. You will learn about renewable energies and shape memory polymers together with how this idea could be implemented in real life."
     },
     {
-      "title": "The Secrets of Fuel Cell Technology",
-      "subtitle": "Renewable Energy",
-      "categories": ["videos"],
       "coverImage": "images/projects/fuelvidcover.jpg",
+      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw",
       "detailTitle": "The Secrets of Fuel Cell Technology",
-      "images": ["images/projects/fuelvidcover.jpg", "images/projects/fuelvid1.jpg", "images/projects/fuelvid2.jpg"],
-      "description": "This video will allow you to understand what is fuel cell technology. Where it can be used, how can I be implemented, and How does it work. After the video, you can talk to anyone about this new knowledge and expand your knowledge base.",
-      "categoryLabel": "Renewable Energy, Fuel Cell",
       "date": "May 24th, 2020",
       "url": "https://www.youtube.com/watch?v=CXix2boY8a8",
-      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw"
+      "categoryLabel": "Renewable Energy, Fuel Cell",
+      "subtitle": "Renewable Energy",
+      "title": "The Secrets of Fuel Cell Technology",
+      "images": [
+        "images/projects/fuelvidcover.jpg",
+        "images/projects/fuelvid1.jpg",
+        "images/projects/fuelvid2.jpg"
+      ],
+      "categories": [
+        "videos"
+      ],
+      "description": "This video will allow you to understand what is fuel cell technology. Where it can be used, how can I be implemented, and How does it work. After the video, you can talk to anyone about this new knowledge and expand your knowledge base."
     },
     {
-      "title": "Opening a startup at 15",
-      "subtitle": "Waste Reducing",
-      "categories": ["videos"],
       "coverImage": "images/projects/faunasvidcover.jpg",
+      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw",
       "detailTitle": "Opening a startup at 15",
-      "images": ["images/projects/faunasvidcover.jpg", "images/projects/faunasvid1.jpg", "images/projects/faunasvid2.jpg"],
-      "description": "This video is a full introduction to my new company Faunas. We aim to create a ZERO waste society where all waste can be used as raw materials. Please check us out!",
-      "categoryLabel": "Waste Reducing, Sustainability, Entrepreneurship",
       "date": "Apr. 29th, 2020",
       "url": "https://www.youtube.com/watch?v=fbvW_LPBkt8&t=14s",
-      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw"
+      "categoryLabel": "Waste Reducing, Sustainability, Entrepreneurship",
+      "subtitle": "Waste Reducing",
+      "title": "Opening a startup at 15",
+      "images": [
+        "images/projects/faunasvidcover.jpg",
+        "images/projects/faunasvid1.jpg",
+        "images/projects/faunasvid2.jpg"
+      ],
+      "categories": [
+        "videos"
+      ],
+      "description": "This video is a full introduction to my new company Faunas. We aim to create a ZERO waste society where all waste can be used as raw materials. Please check us out!"
     },
     {
-      "title": "Nuclear Fusion Presentation",
-      "subtitle": "Renewable Energy",
-      "categories": ["videos", "spotlight"],
       "coverImage": "images/projects/fusionprescover.jpg",
+      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw",
       "detailTitle": "Nuclear Fusion Presentation",
-      "images": ["images/projects/fusionprescover.jpg", "images/projects/fusionpres1.jpg", "images/projects/fusionpres2.jpg"],
-      "description": "This presentation is the first presentation I have ever given in front on a whole audience. I explained the basics of nuclear fusion and its potential side effects. This is when I got into nuclear fusion research, hope you like it!",
-      "categoryLabel": "Renewable Energy, Nuclear Fusion, Public Speaking",
       "date": "Feb. 18th, 2020",
       "url": "https://www.youtube.com/watch?v=haPdNKaq_HM&t=12s",
-      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw"
+      "categoryLabel": "Renewable Energy, Nuclear Fusion, Public Speaking",
+      "subtitle": "Renewable Energy",
+      "title": "Nuclear Fusion Presentation",
+      "images": [
+        "images/projects/fusionprescover.jpg",
+        "images/projects/fusionpres1.jpg",
+        "images/projects/fusionpres2.jpg"
+      ],
+      "categories": [
+        "videos",
+        "spotlight"
+      ],
+      "description": "This presentation is the first presentation I have ever given in front on a whole audience. I explained the basics of nuclear fusion and its potential side effects. This is when I got into nuclear fusion research, hope you like it!"
     },
     {
-      "title": "Internet of Things Application in Retail Presentation",
-      "subtitle": "Online Shopping",
-      "categories": ["videos"],
       "coverImage": "images/projects/iotprescover.jpg",
+      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw",
       "detailTitle": "Internet of Things Application in Retail Presentation",
-      "images": ["images/projects/iotprescover.jpg", "images/projects/iotpres1.jpg", "images/projects/iotpres2.jpg"],
-      "description": "The is a final pitch of a hack-a-ton or fast-past brainstorming and implementation. The idea pitched in a smart tailor where online customers would be able to fit themselves for online shopping. This tailor would have sensors working together to capture the correct size of the customer for precision.",
-      "categoryLabel": "Internet of Things, Retail, Online Shopping, Public Speaking",
       "date": "Jan. 19th, 2020",
       "url": "https://www.youtube.com/watch?v=M1ljK86APj0",
-      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw"
+      "categoryLabel": "Internet of Things, Retail, Online Shopping, Public Speaking",
+      "subtitle": "Online Shopping",
+      "title": "Internet of Things Application in Retail Presentation",
+      "images": [
+        "images/projects/iotprescover.jpg",
+        "images/projects/iotpres1.jpg",
+        "images/projects/iotpres2.jpg"
+      ],
+      "categories": [
+        "videos"
+      ],
+      "description": "The is a final pitch of a hack-a-ton or fast-past brainstorming and implementation. The idea pitched in a smart tailor where online customers would be able to fit themselves for online shopping. This tailor would have sensors working together to capture the correct size of the customer for precision."
     },
     {
-      "title": "City Scale Decarbonization and Duck Curve Explained",
-      "subtitle": "Solar Energy",
-      "categories": ["videos"],
       "coverImage": "images/projects/decarbvidcover.jpg",
+      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw",
       "detailTitle": "City Scale Decarbonization and Duck Curve Explained",
-      "images": ["images/projects/decarbvidcover.jpg", "images/projects/decarbvid1.jpg", "images/projects/decarbvid2.jpg"],
-      "description": "This is the explanation video of the city scale decarbonization experiment conducted by Stanford. This experiment took advantage of the duck curve created by the solar energy to heat and cool the campus with minimal carbon dioxide produced.",
-      "categoryLabel": "Renewable Energy, Solar Energy, Duck Curve, Stanford University",
       "date": "Mar. 30th, 2020",
       "url": "https://www.youtube.com/watch?v=wg8yD4Y6o4Y&t=21s",
-      "urlLabel": "https://www.youtube.com/channel/UC_VczwyxhadjAjiMER0pdVw"
+      "categoryLabel": "Renewable Energy, Solar Energy, Duck Curve, Stanford University",
+      "subtitle": "Solar Energy",
+      "title": "City Scale Decarbonization and Duck Curve Explained",
+      "images": [
+        "images/projects/decarbvidcover.jpg",
+        "images/projects/decarbvid1.jpg",
+        "images/projects/decarbvid2.jpg"
+      ],
+      "categories": [
+        "videos"
+      ],
+      "description": "This is the explanation video of the city scale decarbonization experiment conducted by Stanford. This experiment took advantage of the duck curve created by the solar energy to heat and cool the campus with minimal carbon dioxide produced."
+    },
+    {
+      "coverImage": "https://meet-thelocals.com/wp-content/uploads/2019/10/Eiffel-Tower-view-Paris-1024x683.jpg",
+      "urlLabel": "linkedin",
+      "detailTitle": "dfsjefjoewjg",
+      "date": "07/11/26",
+      "url": "https://www.linkedin.com/in/gabo-zhang/",
+      "categoryLabel": "Consulting",
+      "subtitle": "test project",
+      "title": "Test",
+      "images": [
+        "https://i.etsystatic.com/31548528/r/il/ffde13/5804742914/il_300x300.5804742914_ap2d.jpg",
+        "https://i.etsystatic.com/31548528/r/il/ea150f/4636831386/il_300x300.4636831386_hsq3.jpg"
+      ],
+      "categories": [
+        "spotlight",
+        "articles"
+      ],
+      "description": "Test decription"
     }
   ]
 }
