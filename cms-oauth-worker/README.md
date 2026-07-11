@@ -7,19 +7,7 @@ on the CMS's behalf.
 
 You only need to set this up once.
 
-## 1. Create a GitHub OAuth App
-
-1. Go to https://github.com/settings/developers → **OAuth Apps** → **New OAuth App**.
-2. Fill in:
-   - **Application name**: anything, e.g. `Personal Site CMS`
-   - **Homepage URL**: `https://gabozhang.com` (your site's URL)
-   - **Authorization callback URL**: `https://<your-worker-subdomain>.workers.dev/callback`
-     (you'll get the exact `workers.dev` URL after step 2 below — you can edit
-     this field again afterwards, GitHub lets you update it any time)
-3. Click **Register application**, then **Generate a new client secret**.
-4. Keep the **Client ID** and **Client secret** handy for step 3.
-
-## 2. Install Wrangler and log in to Cloudflare
+## 1. Install Wrangler and log in to Cloudflare
 
 ```
 npm install -g wrangler
@@ -29,25 +17,47 @@ wrangler login
 This opens a browser window to authorize Wrangler against your (free)
 Cloudflare account.
 
-## 3. Set the secrets and deploy
+## 2. Deploy the Worker (to get its URL)
 
 From inside this `cms-oauth-worker/` folder:
 
 ```
-wrangler secret put GITHUB_CLIENT_ID
-wrangler secret put GITHUB_CLIENT_SECRET
 wrangler deploy
 ```
 
-Each `secret put` command will prompt you to paste the value. `wrangler deploy`
-prints the live URL, e.g. `https://personal-site-cms-auth.<you>.workers.dev`.
+It's fine that `GITHUB_CLIENT_ID`/`GITHUB_CLIENT_SECRET` don't exist yet —
+those are only read when someone actually logs in, not at deploy time. This
+command prints the live URL, e.g.
+`https://personal-site-cms-auth.<you>.workers.dev`. Keep that URL handy —
+GitHub needs it in the next step, and you need it again in step 4.
 
-## 4. Wire it up
+## 3. Create a GitHub OAuth App
 
-1. Go back to the GitHub OAuth App (step 1) and make sure **Authorization
-   callback URL** is exactly `<worker-url>/callback`.
-2. In [admin/config.yml](../admin/config.yml), set `base_url` to the worker
-   URL (no trailing slash), e.g.:
+1. Go to https://github.com/settings/developers → **OAuth Apps** → **New OAuth App**.
+2. Fill in:
+   - **Application name**: anything, e.g. `Personal Site CMS`
+   - **Homepage URL**: `https://gabozhang.com` (your site's URL)
+   - **Authorization callback URL**: the URL from step 2 plus `/callback`,
+     e.g. `https://personal-site-cms-auth.<you>.workers.dev/callback`
+3. Click **Register application**, then **Generate a new client secret**.
+4. Keep the **Client ID** and **Client secret** handy for step 4.
+
+## 4. Set the secrets
+
+Still from inside `cms-oauth-worker/`:
+
+```
+wrangler secret put GITHUB_CLIENT_ID
+wrangler secret put GITHUB_CLIENT_SECRET
+```
+
+Each command prompts you to paste the value. No redeploy needed — secrets
+take effect immediately.
+
+## 5. Wire it up
+
+1. In [admin/config.yml](../admin/config.yml), set `base_url` to the worker
+   URL from step 2 (no trailing slash), e.g.:
    ```yaml
    backend:
      name: github
@@ -55,9 +65,9 @@ prints the live URL, e.g. `https://personal-site-cms-auth.<you>.workers.dev`.
      branch: main
      base_url: https://personal-site-cms-auth.<you>.workers.dev
    ```
-3. Commit and push that change.
+2. Commit and push that change.
 
-## 5. Try it
+## 6. Try it
 
 Visit `https://gabozhang.com/admin/` (or wherever the site is hosted), click
 **Login with GitHub**, and you should be able to add/edit/reorder projects.
@@ -74,3 +84,6 @@ about a minute.
   is a personal single-admin site, this Worker skips persisted CSRF `state`
   validation (there's nowhere free to store it without adding Workers KV). If
   you want that hardening later, Cloudflare's Workers KV free tier covers it.
+- If you ever change the Worker's name in `wrangler.toml`, its URL changes
+  too — you'd need to update both the GitHub OAuth App's callback URL and
+  `admin/config.yml`'s `base_url` to match.

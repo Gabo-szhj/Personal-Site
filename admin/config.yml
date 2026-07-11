@@ -2,8 +2,8 @@ backend:
   name: github
   repo: Gabo-szhj/Personal-Site
   branch: main
-  # Replace with your deployed Cloudflare Worker URL (see cms-oauth-worker/README.md)
-  base_url: https://REPLACE-ME.workers.dev
+  # cms-oauth-worker deployed via Cloudflare Workers (see cms-oauth-worker/README.md)
+  base_url: https://personal-site-cms-auth.gabozhang.workers.dev
 
 media_folder: "images/projects"
 public_folder: "/images/projects"
